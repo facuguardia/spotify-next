@@ -14,7 +14,7 @@ const Sidebar = (props) => {
     <div
       className={`bg-black fixed top-0 w-64 h-full p-6 flex flex-col justify-between ${
         sidebarOpen ? "left-0" : "-left-full"
-      } md:left-0 transition-all duration-300`}
+      } md:left-0 transition-all duration-300 z-50`}
     >
       <div
         onClick={() => setSidebarOpen(!sidebarOpen)}

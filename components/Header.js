@@ -5,13 +5,13 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const Header = () => {
   return (
-    <header className="fixed left-0 top-0 bg-spotify-black w-full md:ml-64 md:w-[calc(100%-256px)] flex items-center justify-between p-8">
-      <div className="flex items-center gap-6">
+    <header className="fixed left-0 top-0 bg-spotify-black/90 w-full md:ml-64 md:w-[calc(100%-256px)] flex items-center justify-between p-8 z-40">
+      <div className="flex items-center gap-2 text-3xl">
         <Link href="#">
-          <IoIosArrowBack className="text-2xl" />
+          <IoIosArrowBack className="p-2 box-content bg-spotify-gray rounded-full" />
         </Link>
         <Link href="#">
-          <IoIosArrowForward className="text-2xl" />
+          <IoIosArrowForward className="p-2 box-content bg-spotify-gray rounded-full" />
         </Link>
       </div>
       <div className="flex items-center gap-6">
