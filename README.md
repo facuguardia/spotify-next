@@ -29,4 +29,3 @@
 
 [![mobile-spotify.png](https://i.postimg.cc/SKrbQ0m3/mobile-spotify.png)](https://postimg.cc/QBHySy9J)
 
-[![mobile-spotify-2.png](https://i.postimg.cc/Y9Dcg1Gx/mobile-spotify-2.png)](https://postimg.cc/8JvngfbF)
